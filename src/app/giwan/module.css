@@ -1,0 +1,19 @@
+* {
+    background-color: beige;
+}
+
+main {
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+
+h1 {
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+p {
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
