@@ -11,7 +11,14 @@ export const metadata = {
 export default function RootLayout({ children }) {
   return (
     <html lang="en">
-      <body className={inter.className}>{children}</body>
+      <body className={inter.className}>
+        <div>
+          얘는 어느 페이지에 들어가든 보일 거에요. 왜냐하면 layout.js에 있는
+          내용은 또 다른 레이아웃이 페이지에 존재하지 않는 이상 바뀌지 않기
+          떄문입니다. 그리고 box-sizing: border-box, 마진이랑 패딩 0적용을 globals.css (전역 스타일)에 적용
+        </div>
+        {children}
+      </body>
     </html>
   );
 }

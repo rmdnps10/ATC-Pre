@@ -1,7 +1,5 @@
-import React from 'react'
-
+import React from "react";
+import style from "./Header.module.css";
 export default function Header() {
-  return (
-    <div>Header</div>
-  )
+  return <header className={`${style.headerWrapper}`}>header</header>;
 }
