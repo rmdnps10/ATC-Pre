@@ -1,15 +1,10 @@
-* {
-    background-color: black;
-    color: white;
-}
-
-main {
+.main {
     text-align: center;
     justify-content: center;
     align-items: center;
 }
 
-h1 {
+/* h1 {
     padding-top: 10px;
     padding-bottom: 10px;
 }
@@ -17,4 +12,4 @@ h1 {
 p {
     padding-top: 10px;
     padding-bottom: 10px;
-}
+} */
